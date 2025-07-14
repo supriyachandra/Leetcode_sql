@@ -1,0 +1,3 @@
+/* Write your T-SQL query statement below */
+SELECT NAME AS Customers
+FROM CUSTOMERS where id not in (Select customerId from orders);
